@@ -1,0 +1,53 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 468px;
+    width: 100vw;
+
+    position: relative;
+
+}
+
+.banner__container{
+    display: flex;
+    height: 56%;
+    align-items: flex-end;
+}
+
+.banner__img{
+    position: absolute; /* Define o posicionamento absoluto para a imagem */
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Redimensiona a imagem para preencher o contêiner */
+    z-index: 1; /* Coloca a imagem atrás do elemento */
+    filter: blur(8px);
+
+}
+
+.banner__titulo{
+    font-size: 12vh;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgb(0, 0, 0 , 0.75);
+    z-index: 2;
+    
+}
+
+
+.banner__pontos{
+
+    color: white;   
+    font-size: 81px;
+    font-family: Pacifico , sans-serif;
+    font-weight: 400;
+  
+    text-align: center;
+    z-index: 2;
+    
+}

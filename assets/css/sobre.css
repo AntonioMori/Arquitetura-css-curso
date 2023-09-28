@@ -1,0 +1,29 @@
+.sobre{
+    height: 285px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.sobre__titulo{
+
+    color:var(--vermelho_vinho);
+    font-size: 51px;
+    font-family: Pacifico;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-bottom: 1em;
+ 
+}
+
+.sobre__descricao{
+
+    color: #595959;
+    font-size: 28px;
+    font-family: Roboto;
+    font-weight: 300;
+    word-wrap: break-word;
+    text-align: center;
+}
